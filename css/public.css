@@ -1,0 +1,57 @@
+﻿*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;margin:0;padding:0}
+body,html{position:relative;display:-webkit-box;overflow:hidden;height:100%;min-width:8.53333rem;-webkit-touch-callout:none;-webkit-box-orient:vertical;-webkit-box-align:stretch}
+
+section{
+    position:relative;
+    margin:0 auto;
+    width:10rem;
+    height:100%;
+    overflow-y:auto;
+    -webkit-overflow-scrolling:touch;
+    background:lightblue
+}
+.machine{
+    width:8.77333rem;
+    height:11.8rem;
+    background-color: orange;
+    border-radius: 20px;
+    background:url(../images/bg.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    position:absolute;
+    top:50%;left:50%;
+    -webkit-transform:translate(-50%,-50%);
+    transform:translate(-50%,-50%)
+}
+
+.rotate_box{
+    width:60%;
+    margin:0 auto;
+    padding-top:40%
+}
+.rotate_box dd{
+    border-radius: 20px;
+    width: 3.4667rem;
+    height: 3.46667rem;
+    margin: 0 16%;
+    float: left;
+    background: url(../images/prize2.png);
+    background-size: cover
+}
+
+.rotate_btn{
+    cursor: pointer;
+    background: url(../images/btn.png);
+    background-size: cover;
+    border-radius: 50px;
+    width:1.8rem;
+    height: 1.8rem; 
+    position:absolute;
+    left:50%;
+    margin-left:-.95rem;
+    bottom:1.4rem
+}
+
+.rotate_btn:active{
+    bottom:1.58rem
+}
